@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>KUIS 1 | Selamat Datang di Kelas Matematika Aktuaria </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Sri Dewi Anugrawati" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">Selamat Datang di Kelas Matematika Aktuaria</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Home</a></li>
+   <li><a href="rencana_pembelajaran.html" class="no-ch">Rencana Pembelajaran</a></li>
+   <li><a href="kalender_pembelajaran.html" class="no-ch">Kalender Pembelajaran</a></li>
+   <li id="active"><a href="kuis_1.html" class="active no-ch">KUIS 1</a></li>
+   <li><a href="video_pembahasan.html" class="no-ch">Video Pembahasan</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="kalender_pembelajaran.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="video_pembahasan.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">KUIS 1</h1></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id7">
+<script type="text/javascript">/*<![CDATA[*/
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm7").key0b7[i].checked)
+               {
+                  question0 = document.getElementById("quizForm7").key0b7[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            var id = "7";
+            document.getElementById("quizForm"+id).submitB.disabled = true;
+            var s = document.getElementById("quizFormScore"+id);
+                        var msg_str ="Your score is %d%%";            msg_str = msg_str.replace("%d",actualScore).replace("%%","%");            if (s) { s.innerHTML = "<div class='feedback'><p>"+msg_str+"</p></div>"; } else { alert(msg_str); }
+           
+        }
+    /*]]>*/</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Soal 1</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm7" id="quizForm7" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-7" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Question</h1>
+<div id="taquestion0b7" class="block iDevice_content">
+<div class="exe-math show-code exe-math-engine position-center">
+<p class="exe-math-code" style="text-align: justify;">F_X(t)</p>
+</div>
+<div class="exe-math show-code exe-math-engine position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_3.gif" width="472" height="19" /></p>
+<p class="exe-math-code">\text Distribusi \ F_X(t) \text dalam \ model \ survival \ menyatakan . .</p>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Answers</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b71" class="sr-av"><a href="#answer-key0b71">Option 1</a></label><input type="radio" name="key0b7" id="key0b71" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b71">
+<div id="taoptionAnswer0q0b7" class="block iDevice_content">
+<p>peluang hidup seseorang berusia x</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b72" class="sr-av"><a href="#answer-key0b72">Option 2</a></label><input type="radio" name="key0b7" id="key0b72" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b72">
+<div id="taoptionAnswer1q0b7" class="block iDevice_content">
+<p>peluang meninggal seseorang berusia</p>
+<div class="exe-math show-code exe-math-engine position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_2.gif" width="8" height="11" /></p>
+<p class="exe-math-code">t</p>
+</div>
+<p>tahun yang akan datang</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b73" class="sr-av"><a href="#answer-key0b73">Option 3</a></label><input type="radio" name="key0b7" id="key0b73" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b73">
+<div id="taoptionAnswer2q0b7" class="block iDevice_content">
+<p>peluang seseorang berusia x akan meninggal dalam t tahun yang akan datang</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="SUBMIT ANSWERS" /> <span class="js-hidden js-warning">Enable JavaScript</span></p>
+</div>
+<div id="quizFormScore7"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="kalender_pembelajaran.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="video_pembahasan.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
